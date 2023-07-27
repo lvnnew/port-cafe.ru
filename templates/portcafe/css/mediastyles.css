@@ -1,0 +1,386 @@
+.smart {
+    display: none;
+}
+.mobiletel {
+  display: none;
+}
+.descktoptel {
+  display: block;
+}
+@media screen and (max-width: 1400px) {
+
+    /*Верхнее меню*/
+    #top_nav {
+       /* top: 80px;*/
+    }
+    .menu {
+        width: 90%;
+        margin: auto;
+    }
+
+    .main_page_text {
+        padding: 25px;
+        margin: 125px auto 0 auto;
+        background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+    }
+    
+    .m_prf {
+        width:80px;  
+        margin-top:10px;
+        margin-bottom:10px;
+      }
+}
+
+@media screen and (max-width: 1114px) {
+
+    /*Верхнее меню*/
+    .menu {
+        width: 100%;
+        margin: auto;
+    }
+
+    #top_nav .menu .moduletable ul li a{
+        font-size: 12pt;
+    }
+
+    .item-page, .jbzoo, #icagenda {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 5px;
+    }
+
+
+}
+
+@media screen and (max-width:800px) {
+    header {
+      height: 66px;
+    }
+    .line0 {
+      height: 66px;
+    }
+    #top_nav {
+      width: 40px;
+      margin-left: 10px;
+    }
+    .logo {
+      margin-top: 15px;
+    }
+
+    .menu #mobilemenu-toggle {
+        display: inline-block;
+    }
+
+    #top_nav .menu .moduletable {
+        display: none;
+    }
+    #top_nav .menu .soc {
+        display: none;
+    }
+
+    .mobile-logo {
+        position: absolute;
+        display: block;
+        bottom: 16px;
+        left: 100px;
+    }
+
+    .mobile-logo img {
+        width: 300px;
+        height: auto;
+    }
+
+/*На главной странице - текст о ресторане*/
+  .main_page_text {
+/*      border-radius: 50%;
+      background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+      width: 415px;
+      height: 415px;
+      margin-top: 50px;*/
+  }
+  .M_image img {
+    width: 250px;
+  }
+  .m_header {
+    font-size: 27pt;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .m_text {
+      font-size: 13pt;
+  }
+
+  .m_text p {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      color: white;
+  }
+  .m_text a {
+      color:white;
+  }
+  /*
+  .m_text p:last-child span.tel1  {
+    display: none;
+  }
+
+  .m_text p:last-child span.telcod,
+  .m_text p:last-child span.tel2  {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+  */
+  .mobiletel {
+    display: block;
+    color: white!important;
+    font-size: 26px;
+  }
+  .descktoptel {
+    display: none!important;
+  }
+
+
+    .dinner-header-center {
+        width: 60%;
+        text-align: center;
+        margin-left: 20%;
+    }
+    .dinner-header-left,
+    .dinner-header-right{
+        width: 45%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 3%;
+    }
+    .all-peoples img {
+        width:60%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .mobile-logo {
+        left: 60px;
+    }
+    .mobile-logo img {
+        width: 230px;
+        height: auto;
+    }
+
+    /*На главной странице - текст о ресторане*/
+      .main_page_text {
+          border-radius: 50%;
+          background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+          width: 300px;
+          height: 300px;
+          padding: 0;
+          margin-top: 50px;
+      }
+      .M_image {
+        padding-top: 12px;
+      }
+      .M_image img {
+        width: 150px;
+      }
+
+      .m_header {
+        font-size: 18pt;
+        font-weight: 700;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding: 0 20px;
+        word-wrap: normal;
+      }
+      .m_header p {
+        padding: 0;
+        margin: 0;
+        word-wrap: normal;
+      }
+      .m_text {
+        font-size: 10pt;
+        margin-top: 13px;
+      }
+      .m_text p {
+        margin-top: 0px;
+        margin-bottom: 5px;
+        color:white;
+      }
+        .m_text a {
+      color:white;
+  }
+      
+      .m_prf {
+        width:50px;  
+        margin-top:10px;
+        margin-bottom:10px;
+      }
+
+      .mobiletel {
+        display: block;
+        color: white!important;
+        font-size: 19px
+      }
+      .descktoptel {
+        display: none!important;
+      }
+      /*
+      .m_text p {
+        margin-top: 0px;
+        margin-bottom: 8px;
+        color: white;
+      }
+      .m_text p:last-child span.tel1  {
+        display: none;
+      }
+
+      .m_text p:last-child span.telcod,
+      .m_text p:last-child span.tel2  {
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+      }
+      */
+
+
+    .item-page,
+    .jbzoo {
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow: hidden;
+    }
+    .item-page p{
+        margin-bottom: 20px;
+    }
+    .item-page .page-header h2 {
+        margin: 0;
+        font-size: 18px;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 1px solid white;
+    }
+
+    .smart {
+        display: block;
+        width: 100%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .dinner-header-center {
+        width: 80%;
+        text-align: center;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+    .dinner-header-left,
+    .dinner-header-right{
+        width: 80%;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
+
+    .about-people p {
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .all-peoples img {
+        width:60%;
+        height: auto;
+    }
+
+    /*jbzoo - Категрии в галерее*/
+    .jbzoo .items-col-2 {
+        width: 100%;
+    }
+    .jbzoo .items-col-2 .column{
+        margin: 0;
+        width: 100%;
+    }
+
+    .jbzoo .items .jbzoo-item {
+        margin: 0!important;
+        max-width: 275px;
+        width: 100%;
+    }
+    .jbzoo .items .jbzoo-item img {
+        max-width: 275px;
+        width: 100%;
+        height: auto;
+    }
+
+    /*JB zoo - элементы в галереи*/
+    .jbzoo .element a {
+        float: none;
+        padding: 0;
+    }
+    .jbzoo .element a img {
+        width: 70%;
+        max-width: 150px;
+        height: auto;
+        margin-left: 15%;
+    }
+
+    .gastrodinner-set table.gastrodinner-table {
+        width: 200%;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        left: 0;
+        transition: left .5s;
+    }
+
+    .gastrodinner-set table.gastrodinner-table.moved {
+        width: 200%;
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        left: -100%;
+    }
+
+    .gastrodinner-set table.gastrodinner-header {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .gastrodinner-set table.gastrodinner-header h3 {
+        margin: 0;
+    }
+
+    .gastrodinner-set table .gastrodinner-header-column-1,
+    .gastrodinner-set table .gastrodinner-header-column-2 {
+        text-align: center;
+        border-bottom: 1px solid #b9bbb7;
+        border-collapse: collapse;
+    }
+
+    .gastrodinner-set table .gastrodinner-header-column-1.active {
+        box-sizing: border-box;
+        border: 1px solid #b9bbb7;
+        border-top-right-radius: 10px;
+        background-color: rgba(207, 205, 205, 0.2);
+    }
+
+    .gastrodinner-set table .gastrodinner-header-column-2.active {
+        box-sizing: border-box;
+        border: 1px solid #b9bbb7;
+        border-top-left-radius: 10px;
+        background-color: rgba(207, 205, 205, 0.2);
+    }
+
+    .gastrodinner-set table .gastrodinner-column-1 {
+        text-align: center;
+    }
+    .gastrodinner-set table .gastrodinner-column-2 {
+        text-align: center;
+    }
+}

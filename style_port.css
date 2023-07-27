@@ -1,0 +1,69 @@
+.text-normal {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+}
+.text-zag {
+
+	font-family: "Courier New", Courier, mono;
+	font-size: 18px;
+	font-weight: bold;
+	color: #DF9B48;
+	text-decoration: none;
+}
+.fields {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #000000;
+	white-space: normal;
+	page-break-before: auto;
+	page-break-after: auto;
+
+}
+.but {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	border: 1px solid #000000;
+}
+.text-normal-link {
+
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #72A3D3;
+	text-decoration: underline;
+}
+.text-normal-bold {
+
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.text-normal-i {
+	font-family: Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	font-style: italic;
+
+}
+.text-normal-orange {
+
+
+	font-family: Verdana;
+	font-size: 10px;
+	font-weight: bold;
+	color: #DF9B48;
+	text-decoration: none;
+}

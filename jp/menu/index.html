@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <base href="http://port-cafe.ru/jp/menu" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="Super User" />
+  <meta name="description" content="Ресторан дальневосточной кухни" />
+  <meta name="generator" content="Joomla! - Open Source Content Management" />
+  <title>Menu</title>
+  <link href="http://port-cafe.ru/jp/menu" rel="canonical" />
+  <link href="http://port-cafe.ru/ru/menyu" rel="alternate" hreflang="ru-RU" />
+  <link href="http://port-cafe.ru/en/menu" rel="alternate" hreflang="en-GB" />
+  <link href="http://port-cafe.ru/cn/menu" rel="alternate" hreflang="zh-TW" />
+  <link href="http://port-cafe.ru/kr/menu" rel="alternate" hreflang="ko-KR" />
+  <link href="/templates/portcafe/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+  <link rel="stylesheet" href="/media/plg_content_mavikthumbnails/slimbox2/css/slimbox2.css" type="text/css" />
+  <link rel="stylesheet" href="/media/plg_content_mavikthumbnails/css/mavikthumbnails.css" type="text/css" />
+  <link rel="stylesheet" href="/media/mod_languages/css/template.css" type="text/css" />
+  <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
+  <script src="/media/jui/js/jquery-migrate.min.js" type="text/javascript"></script>
+  <script src="/media/plg_content_mavikthumbnails/slimbox2/js/slimbox2.js" type="text/javascript"></script>
+  <script src="/media/system/js/caption.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-core.js" type="text/javascript"></script>
+  <script src="/media/system/js/core.js" type="text/javascript"></script>
+  <script src="/media/system/js/mootools-more.js" type="text/javascript"></script>
+  <script type="text/javascript">
+jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+  </script>
+  <meta property="og:image" content="http://port-cafe.ru/images/thumbnails/images/mj1-fill-1064x1064.jpg" />
+
+
+    <link rel="stylesheet" href="/templates/portcafe/css/template.css" type="text/css" />
+    <link rel="stylesheet" href="/templates/portcafe/css/mediastyles.css" type="text/css" />
+    <link rel="stylesheet" href="/templates/portcafe/css/mobilemenu.css" type="text/css" />
+
+    <link href='http://fonts.googleapis.com/css?family=Arimo&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+    <script src="/templates/portcafe/js/mobilemenu.js" ></script>
+
+    <script type="text/javascript">
+        jQuery.noConflict();
+    </script>
+
+    <script>
+       /* var h_hght = 120; // высота шапки
+        var h_mrg = 0;    // отступ когда шапка уже не видна
+
+        jQuery(function(){
+
+            var elem = jQuery('#top_nav');
+            var top = jQuery(this).scrollTop();
+
+            if(top > h_hght){
+                elem.css('top', h_mrg);
+            }
+
+            jQuery(window).scroll(function(){
+                top = jQuery(this).scrollTop();
+
+                if (top+h_mrg < h_hght) {
+                    elem.css('top', (h_hght-top));
+                } else {
+                    elem.css('top', h_mrg);
+                }
+            });
+
+        });
+*/
+
+/*========== отработка всплывающего баннера ===============*/
+/* Проверка 20 и 21 символов (код языка) из урл страницы. Если пусто, значит язык русский.*/
+
+    function showbaloon() {
+        var checklang1 = window.location.toString().charAt(20);
+        var checklang2 = window.location.toString().charAt(21);
+        var checklang = checklang1 + checklang2;
+        var image;
+        
+        if (checklang == "") {
+            checklang = "ru";
+        }
+        
+        image = '<img src="/../taiga-fest/tf_' + checklang + '.jpg" style="max-width:100%;">';
+        
+        document.getElementById('baloonbody').innerHTML = image;
+        document.getElementById('baloonwrap').style.display="none";
+    }
+        
+    function hidebaloon() {
+        document.getElementById('baloonwrap').style.display="none";
+    }
+    setTimeout(showbaloon, 5000);
+/*========== /отработка всплывающего баннера ===============*/
+    </script>
+  
+  <!-- Yandex.Metrika counter --> <script type="text/javascript" > (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter47873546 = new Ya.Metrika({ id:47873546, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks"); </script> <noscript><div><img src="https://mc.yandex.ru/watch/47873546" style="position:absolute; left:-9999px;" alt="" /></div></noscript> <!-- /Yandex.Metrika counter -->
+  
+</head>
+
+<body id="b1">
+    <!-- всплывающий баннер -->
+    <div id="baloonwrap" style="position:fixed; top:0; left:0; width:100%; min-height:100%; background-color:rgba(0, 0, 0, .2); z-index:10000; display:none;" onclick="hidebaloon()">
+        <div id="baloonbody" style="text-align:center; margin-top:10%; max-width:100%;">
+        <!-- место для вставки баннера -->            
+        </div>
+    </div>
+    <!-- /всплывающий баннер -->    
+    <div class="main-page">
+
+        <div class="mobilemenu">
+            <div class="mobilemenu-header">
+                <a href="/">
+                    
+
+<div class="custom"  >
+	<p class="header-mobile-slogan">FISH & SEAFOOD<br> GIFTS OF TAIGA<br> RESTAURANT</p></div>
+
+                    <!--		<div class="moduletable">
+					<div class="mod-languages">
+
+	<ul class="lang-inline">
+						<li class="" dir="ltr">
+			<a href="/ru/menyu">
+							<img src="/media/mod_languages/images/ru.gif" alt="Русский" title="Русский" />						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="/en/menu">
+							<img src="/media/mod_languages/images/en.gif" alt="English" title="English" />						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="/cn/menu">
+							<img src="/media/mod_languages/images/zh.gif" alt="中文" title="中文" />						</a>
+			</li>
+								<li class="lang-active" dir="ltr">
+			<a href="http://port-cafe.ru/jp/menu">
+							<img src="/media/mod_languages/images/ja.gif" alt="日本語" title="日本語" />						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="/kr/menu">
+							<img src="/media/mod_languages/images/ko_kr.gif" alt="한국어" title="한국어" />						</a>
+			</li>
+				</ul>
+
+</div>
+		</div>
+	-->
+                </a>
+            </div>
+
+            <div class="mobilemenu-menu">
+                		<div class="moduletable">
+					<ul class="nav menu">
+<li class="item-145"><a href="/jp/" >Home</a></li><li class="item-155"><a href="/jp/about-us" >About Us</a></li><li class="item-157 current active"><a href="/jp/menu" >Menu</a></li><li class="item-164"><a href="/jp/dinners" >DINNERS</a></li><li class="item-158"><a href="/jp/gallery" >Gallery</a></li><li class="item-156"><a href="/jp/contacts-us" >Contacts Us</a></li></ul>
+		</div>
+	
+            </div>
+
+        </div>
+
+        <header>
+            <div class="line0">
+
+                <div class="logo">
+                   		<div class="moduletable">
+					<div class="mod-languages">
+
+	<ul class="lang-inline">
+						<li class="" dir="ltr">
+			<a href="/ru/menyu">
+							<img src="/media/mod_languages/images/ru.gif" alt="Русский" title="Русский" />						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="/en/menu">
+							<img src="/media/mod_languages/images/en.gif" alt="English" title="English" />						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="/cn/menu">
+							<img src="/media/mod_languages/images/zh.gif" alt="中文" title="中文" />						</a>
+			</li>
+								<li class="lang-active" dir="ltr">
+			<a href="http://port-cafe.ru/jp/menu">
+							<img src="/media/mod_languages/images/ja.gif" alt="日本語" title="日本語" />						</a>
+			</li>
+								<li class="" dir="ltr">
+			<a href="/kr/menu">
+							<img src="/media/mod_languages/images/ko_kr.gif" alt="한국어" title="한국어" />						</a>
+			</li>
+				</ul>
+
+</div>
+		</div>
+	
+                </div>
+
+                <nav id="top_nav" >
+                    <div class="menu clearfix">
+                        <p data-toggle=".main-page" id="mobilemenu-toggle">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </p>
+                        <!--<div class="mobile-logo">
+                            <img src="/images/logo_new_black.png" alt="">
+                        </div>
+                      -->
+                        		<div class="moduletable">
+					<ul class="nav menu">
+<li class="item-145"><a href="/jp/" >Home</a></li><li class="item-155"><a href="/jp/about-us" >About Us</a></li><li class="item-157 current active"><a href="/jp/menu" >Menu</a></li><li class="item-164"><a href="/jp/dinners" >DINNERS</a></li><li class="item-158"><a href="/jp/gallery" >Gallery</a></li><li class="item-156"><a href="/jp/contacts-us" >Contacts Us</a></li></ul>
+		</div>
+	
+                        <div class="soc">
+                            <a href="https://www.facebook.com/portcafevl/" target="_blank"><img src="/images/facebook.png" width="30"></a>
+                            <a href="https://www.instagram.com/port_cafevl/" target="_blank"><img src="/images/instagram.png" width="30"></a>
+                            <a href="http://fotoyou.tv/myphoto?specialcat=8" target="_blank"><img src="/images/fototv.png" height = "30px"></a>
+                         </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <div class="line1">
+            <div class="news">
+                
+            </div>
+        </div>
+
+        <div class="line2">
+            <div class="content">
+                <div class="item-page" itemscope itemtype="http://schema.org/Article">
+	<meta itemprop="inLanguage" content="ja-JP" />
+				<div class="page-header">
+		<h2 itemprop="name">
+												Menu									</h2>
+							</div>
+					
+	
+	
+		
+								<div itemprop="articleBody">
+		<p style="text-align: center;"><a href="/images/mj1.jpg" class="thumbnail zoomin" style="" rel="lightbox-17" title="01 1"><img src="/images/thumbnails/images/mj1-fill-739x1231.jpg" alt="01 1" width="739" height="1231" class="" style="" /></a>
+</p>
+<p style="text-align: center;"><a href="/images/mj2.jpg" class="thumbnail zoomin" style="" rel="lightbox-17" title="01 2"><img src="/images/thumbnails/images/mj2-fill-741x1236.jpg" alt="01 2" width="741" height="1236" class="" style="" /></a>
+</p>
+<p style="text-align: center;"><a href="/images/mj3.jpg" class="thumbnail zoomin" style="" rel="lightbox-17" title="01 3"><img src="/images/thumbnails/images/mj3-fill-738x1230.jpg" alt="01 3" width="738" height="1230" class="" style="" /></a>
+</p>
+<p style="text-align: center;"><a href="/images/mj4.jpg" class="thumbnail zoomin" style="" rel="lightbox-17" title="sup"><img src="/images/thumbnails/images/mj4-fill-737x1229.jpg" alt="sup" width="737" height="1229" class="" style="" /></a>
+</p>
+<p style="text-align: center;"><a href="/images/mj5.jpg" class="thumbnail zoomin" style="" rel="lightbox-17" title="myaso"><img src="/images/thumbnails/images/mj5-fill-739x1232.jpg" alt="myaso" width="739" height="1232" class="" style="" /></a>
+</p>
+<p style="text-align: center;"><a href="/images/mj6.jpg" class="thumbnail zoomin" style="" rel="lightbox-17" title="riba"><img src="/images/thumbnails/images/mj6-fill-737x1229.jpg" alt="riba" width="737" height="1229" class="" style="" /></a>
+</p>
+<p style="text-align: center;"><a href="/images/mj7.jpg" class="thumbnail zoomin" style="" rel="lightbox-17" title="vok"><img src="/images/thumbnails/images/mj7-fill-739x1231.jpg" alt="vok" width="739" height="1231" class="" style="" /></a>
+</p>
+<p style="text-align: center;"><a href="/images/mj8.jpg" class="thumbnail zoomin" style="" rel="lightbox-17" title="garnir"><img src="/images/thumbnails/images/mj8-fill-740x1231.jpg" alt="garnir" width="740" height="1231" class="" style="" /></a>
+</p>
+   <p style="text-align: center;"><h3>Bar</h3></p>   
+   <p style="text-align: center;"><img src="/images/menu/092018/bar-d-01.jpg" alt="bar1" class="" /></p>
+   <p style="text-align: center;"><img src="/images/menu/092018/bar-d-02.jpg" alt="bar2" class="" /></p>
+   <p style="text-align: center;"><img src="/images/menu/092018/bar-d-03.jpg" alt="bar3" class="" /></p>
+   <p style="text-align: center;"><img src="/images/menu/092018/bar-d-04.jpg" alt="bar4" class="" /></p>
+   <p style="text-align: center;"><img src="/images/menu/092018/bar-d-05.jpg" alt="bar5" class="" /></p>  
+	</div>
+
+	
+						 </div>
+
+            </div>
+
+            <div class="content_modules">
+                
+            </div>
+        </div>
+
+
+        <div class="footer">
+           
+        </div>
+    </div>
+
+    <script>
+        //Скрипт для обработки нажатия кнопки открытия мобильного меню
+        var toggleButton = document.querySelector('#mobilemenu-toggle');
+        var attributeName = toggleButton.getAttribute('data-toggle');
+        var toggleContainer = document.querySelector(attributeName);
+        toggleButton.addEventListener('click',function(){
+            toggleContainer.classList.toggle("open-sidebar");
+            if (toggleContainer.classList.contains('open-sidebar')){
+                document.body.style.overflow = 'hidden';
+                document.body.style.position = 'fixed';
+            } else {
+                document.body.style.overflow = '';
+                document.body.style.position = '';
+            }
+        })
+
+    </script>
+
+    <script>
+        // Создание мобильного меню
+        mobileMenu(document.getElementsByClassName('mobilemenu')[0]);
+    </script>
+
+    <script>
+        //Скрипт работает с сетами гастроужинов
+        //На меленьких экранах он делает таблицу шире в два раза и
+        //при нажатии кнопок "Сетов" сдвигает таблицу в ту или иную сторону
+        //Вся анимация за счет присвоения/удаления классов маленьких экранов
+        var tableHeaderSet2 = document.querySelector(".gastrodinner-header-column-2");
+        var tableHeaderSet1 = document.querySelector(".gastrodinner-header-column-1");
+
+        if(tableHeaderSet2) {
+            tableHeaderSet2.addEventListener("click", function () {
+                tableHeaderSet2.classList.add("active");
+                tableHeaderSet1.classList.remove("active");
+
+                var allGastroTable = document.querySelectorAll(".gastrodinner-table");
+                for (var i = 0; i < allGastroTable.length; i++) {
+                    allGastroTable[i].classList.add("moved");
+                }
+            })
+        }
+        if(tableHeaderSet1) {
+            tableHeaderSet1.addEventListener("click", function () {
+                tableHeaderSet1.classList.add("active");
+                tableHeaderSet2.classList.remove("active");
+
+                var allGastroTable = document.querySelectorAll(".gastrodinner-table");
+                for (var i = 0; i < allGastroTable.length; i++) {
+                    allGastroTable[i].classList.remove("moved");
+                }
+            })
+        }
+
+        window.addEventListener('load',function(){
+            if(tableHeaderSet2) {
+                tableHeaderSet1.classList.add("active");
+            }
+        });
+
+    </script>
+  
+  <div style="position:fixed; left:0; bottom:0;">  
+<!-- Yandex.Metrika informer --> <a href="https://metrika.yandex.ru/stat/?id=47873546&amp;from=informer" target="_blank" rel="nofollow"><img src="https://metrika-informer.com/informer/47873546/3_0_FFFFFFFF_EFEFEFFF_0_pageviews" style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="47873546" data-lang="ru" /></a> <!-- /Yandex.Metrika informer -->  
+</div>  
+
+</body>
+</html>
+
